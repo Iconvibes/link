@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ori{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.692), rgba(0, 0, 0, 0.616)), url("./dimages/house-1\ \(21\).jpg");
+    padding: 5rem 3rem;
+}
+.man >ul>li{
+    list-style: disc;
+}
+.man >a{
+    width: 50%;
+}
+@media (min-width:300px) and (max-width:600px){
+    body{
+        padding: 0;
+    }
+    .ori{
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.473)), url("./dimages/house-1\ \(22\).jpg");
+        background-position: center;
+        padding: 10px 0;
+    }
+    .man >h4{
+        width: 99%;
+    }
+    .man >ul >li{
+        width: 100%;
+        text-align: center;
+        list-style: lower-greek;
+    }
+    .man >a{
+        width: 100%;
+    }
+}
